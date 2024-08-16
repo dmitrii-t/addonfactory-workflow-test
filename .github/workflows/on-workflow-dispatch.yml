@@ -1,0 +1,11 @@
+name: On Manual Dispatch
+
+# Trigger the workflow manually
+on:
+  workflow_dispatch:
+
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "On Manual Dispatch"
